@@ -122,7 +122,7 @@
                     Pathway Canada
                 </div>
 <nav class="hidden md:flex items-center space-x-1">
-<a class="px-4 py-2 rounded-lg text-sm font-medium text-on-surface-variant hover:bg-surface-container transition-colors" href="{{DATA:SCREEN:SCREEN_47}}">Dashboard</a><a class="px-4 py-2 rounded-lg text-sm font-semibold text-primary bg-surface-container-low transition-colors" href="{{DATA:SCREEN:SCREEN_20}}">National Search</a>
+<a class="px-4 py-2 rounded-lg text-sm font-medium text-on-surface-variant hover:bg-surface-container transition-colors" href="#calculator">Dashboard</a><a class="px-4 py-2 rounded-lg text-sm font-semibold text-primary bg-surface-container-low transition-colors" href="#about">National Search</a>
 <a class="px-4 py-2 rounded-lg text-sm font-medium text-on-surface-variant hover:bg-surface-container transition-colors" href="#">My Portfolio</a>
 <a class="px-4 py-2 rounded-lg text-sm font-medium text-on-surface-variant hover:bg-surface-container transition-colors" href="#">Resources</a>
 </nav>
@@ -135,7 +135,7 @@
 <input class="bg-surface-container-low border border-outline-variant/50 rounded-full py-1.5 pl-10 pr-4 text-sm focus:ring-2 focus:ring-primary/20 focus:border-primary outline-none transition-all placeholder:text-on-surface-variant/50 w-64" placeholder="Search programs..." type="text"/>
 </div>
 <div class="h-8 w-px bg-outline-variant/30 mx-2 hidden lg:block"></div>
-<a class="flex items-center space-x-2 text-primary active:scale-95 duration-150 ease-in-out bg-white px-4 py-2 rounded-lg border border-primary font-bold shadow-sm hover:bg-surface-container-lowest transition-all" href="{{DATA:SCREEN:SCREEN_47}}">
+<a class="flex items-center space-x-2 text-primary active:scale-95 duration-150 ease-in-out bg-white px-4 py-2 rounded-lg border border-primary font-bold shadow-sm hover:bg-surface-container-lowest transition-all" href="#calculator">
 <span class="material-symbols-outlined text-xl">account_circle</span>
 <span class="text-sm">Secure Sign In</span>
 </a>
@@ -173,10 +173,10 @@
                         Navigate Canada’s post-secondary landscape with precision. Input your current grades to instantly discover programs where you meet the threshold.
                     </p>
 <div class="flex flex-col sm:flex-row gap-4">
-<a class="inline-block text-center academic-gradient text-on-primary px-8 py-4 rounded-lg font-lexend font-bold text-lg shadow-xl shadow-primary/10 hover:opacity-90 active:scale-95 transition-all" href="#eligibility-test">
+<a class="inline-block text-center academic-gradient text-on-primary px-8 py-4 rounded-lg font-lexend font-bold text-lg shadow-xl shadow-primary/10 hover:opacity-90 active:scale-95 transition-all" href="#calculator">
                             Check Your Eligibility
                         </a>
-<a class="inline-block text-center bg-surface-container-highest text-primary px-8 py-4 rounded-lg font-lexend font-bold text-lg hover:bg-surface-dim transition-all" href="{{DATA:SCREEN:SCREEN_20}}">
+<a class="inline-block text-center bg-surface-container-highest text-primary px-8 py-4 rounded-lg font-lexend font-bold text-lg hover:bg-surface-dim transition-all" href="#about">
                             Browse All Programs
                         </a>
 </div>
@@ -541,4 +541,19 @@
             }, 300);
         }
     }
+ <script>
+ (function() {
+ document.querySelectorAll('a[href^="#"]').forEach(link => {
+ link.addEventListener('click', function(e) {
+ var id = this.getAttribute('href');
+ if (id === '#' || id === ') return;
+ var target = document.querySelector(id);
+ if (target) {
+ e.preventDefault();
+ target.scrollIntoView({ behavior: 'smooth' });
+ }
+ });
+ });
+ })();
+ </script>
 </script></body></html>
