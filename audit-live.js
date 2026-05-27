@@ -43,8 +43,8 @@ const LIVE_URL = 'https://pathways-canada-portal.netlify.app';
     await googleBtn.click();
     
     // Wait for redirect/navigation to dashboard
-    await page.waitForURL('**/student-dashboard.html', { waitUntil: 'load' });
-    console.log('✅ Successfully authenticated and navigated to student-dashboard.html');
+    await page.waitForURL('**/student-dashboard*', { waitUntil: 'load' });
+    console.log('✅ Successfully authenticated and navigated to student-dashboard');
 
     // Capture screenshot of authenticated dashboard
     const dashboardPath = path.join(ARTIFACT_DIR, 'live_dashboard.png');
@@ -76,7 +76,7 @@ const LIVE_URL = 'https://pathways-canada-portal.netlify.app';
     await payBtn.click();
 
     // Wait for the URL callback structure redirect and reload
-    await page.waitForURL('**/student-dashboard.html', { waitUntil: 'load' });
+    await page.waitForURL('**/student-dashboard*', { waitUntil: 'load' });
     console.log('✅ Payment success redirect complete.');
 
     // Check if user is now Pro

@@ -153,6 +153,43 @@ function saveAppState(state) {
   window.dispatchEvent(new Event('storage'));
 }
 
+const MACLEANS_RANKINGS = {
+  // Medical Doctoral
+  "mcgill-university": { rank: 1, category: "Medical Doctoral" },
+  "university-of-toronto": { rank: 2, category: "Medical Doctoral" },
+  "university-of-british-columbia": { rank: 3, category: "Medical Doctoral" },
+  "mcmaster-university": { rank: 4, category: "Medical Doctoral" },
+  "queens-university-at-kingston": { rank: 5, category: "Medical Doctoral" },
+  "university-of-alberta": { rank: 6, category: "Medical Doctoral" },
+  "university-of-calgary": { rank: 7, category: "Medical Doctoral" },
+  "university-of-western-ontario": { rank: 8, category: "Medical Doctoral" },
+  "university-of-ottawa": { rank: 9, category: "Medical Doctoral" },
+  "dalhousie-university": { rank: 10, category: "Medical Doctoral" },
+  "university-of-saskatchewan": { rank: 11, category: "Medical Doctoral" },
+  "university-of-manitoba": { rank: 12, category: "Medical Doctoral" },
+
+  // Comprehensive
+  "simon-fraser-university": { rank: 1, category: "Comprehensive" },
+  "university-of-victoria": { rank: 2, category: "Comprehensive" },
+  "university-of-waterloo": { rank: 3, category: "Comprehensive" },
+  "york-university": { rank: 4, category: "Comprehensive" },
+  "carleton-university": { rank: 5, category: "Comprehensive" },
+  "university-of-guelph": { rank: 6, category: "Comprehensive" },
+  "toronto-metropolitan-university": { rank: 7, category: "Comprehensive" },
+  "concordia-university": { rank: 8, category: "Comprehensive" },
+  "wilfrid-laurier-university": { rank: 9, category: "Comprehensive" },
+  "university-of-windsor": { rank: 10, category: "Comprehensive" },
+
+  // Primarily Undergraduate
+  "mount-allison-university": { rank: 1, category: "Primarily Undergraduate" },
+  "university-of-northern-british-columbia": { rank: 2, category: "Primarily Undergraduate" },
+  "saint-francis-xavier-university": { rank: 3, category: "Primarily Undergraduate" },
+  "bishops-university": { rank: 4, category: "Primarily Undergraduate" },
+  "acadia-university": { rank: 5, category: "Primarily Undergraduate" },
+  "saint-marys-university": { rank: 6, category: "Primarily Undergraduate" },
+  "university-of-prince-edward-island": { rank: 7, category: "Primarily Undergraduate" }
+};
+
 const BRAND_OVERLYS = {
   "university-of-toronto": { bg: "linear-gradient(135deg, #002a5c 0%, #00152a 100%)", initials: "UT", color: "#ffffff", brandColor: "#002a5c" },
   "mcgill-university": { bg: "linear-gradient(135deg, #ed1b2f 0%, #c8102e 100%)", initials: "MCG", color: "#ffffff", brandColor: "#ed1b2f" },
@@ -872,7 +909,8 @@ function calculateMatches(courses) {
       isUndergrad: geo.isUndergrad,
       isGraduate: geo.isGraduate,
       applyUrl: applyUrl,
-      websiteUrl: websiteUrl
+      websiteUrl: websiteUrl,
+      ranking: MACLEANS_RANKINGS[item.id] || null
     };
   });
 

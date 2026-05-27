@@ -1426,6 +1426,12 @@
                             <span class="px-2.5 py-0.5 bg-slate-100 dark:bg-slate-800 text-slate-650 dark:text-slate-350 text-[9px] font-extrabold rounded-full uppercase tracking-wider select-none">
                                 📍 ${item.city}, ${item.province}
                             </span>
+                            ${item.ranking ? `
+                            <span class="px-2.5 py-0.5 bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 text-[9px] font-extrabold rounded-full uppercase tracking-wider flex items-center gap-1 select-none">
+                                <span class="material-symbols-outlined text-[10px] leading-none">leaderboard</span>
+                                Maclean's: #${item.ranking.rank} ${item.ranking.category}
+                            </span>
+                            ` : ''}
                         </div>
                     </div>
 
@@ -1787,6 +1793,12 @@
                                 ${item.type}
                             </span>
                             ${getLayoutBadges(item, false)}
+                            ${item.ranking ? `
+                            <span class="px-2.5 py-0.5 bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20 text-[9px] font-extrabold rounded-full uppercase tracking-wider flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[10px] leading-none">leaderboard</span>
+                                Maclean's: #${item.ranking.rank} ${item.ranking.category}
+                            </span>
+                            ` : ''}
                         </div>
 
                         ${proSectionHTML}
