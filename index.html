@@ -677,7 +677,7 @@
 </button>
 </div>
 <!-- Content Area -->
-<div class="h-96 p-6 bg-surface-container-lowest overflow-y-auto flex flex-col gap-4">
+<div class="h-96 p-6 bg-surface-container-lowest overflow-y-auto flex flex-col gap-4" id="chat-messages">
 <div class="bg-surface-container-low p-4 rounded-2xl rounded-tl-none max-w-[85%] border border-outline-variant/20">
 <p class="text-xs text-on-surface-variant leading-relaxed">
                     Hello! How can we help you today with your academic journey or application savings?
@@ -688,8 +688,8 @@
 <!-- Input Area -->
 <div class="p-4 border-t border-outline-variant/20 bg-white">
 <div class="relative flex items-center">
-<input class="w-full bg-surface-container-low border-none rounded-full py-2.5 pl-4 pr-12 text-sm focus:ring-2 focus:ring-primary/10" aria-label="Type your message to the support bot" placeholder="Type your message..." type="text"/>
-<button class="absolute right-2 text-primary hover:scale-110 transition-transform">
+<input class="w-full bg-surface-container-low border-none rounded-full py-2.5 pl-4 pr-12 text-sm focus:ring-2 focus:ring-primary/10" aria-label="Type your message to the support bot" placeholder="Type your message..." type="text" id="chat-input" onkeydown="if(event.key === 'Enter') sendChatMessage()"/>
+<button class="absolute right-2 text-primary hover:scale-110 transition-transform" id="chat-send-btn" onclick="sendChatMessage()">
 <span class="material-symbols-outlined">send</span>
 </button>
 </div>
@@ -783,6 +783,112 @@
                 closeIcon.classList.add('hidden');
             }, 300);
         }
+    }
+
+    let chatHistory = [];
+
+    async function sendChatMessage() {
+        const input = document.getElementById('chat-input');
+        const messagesContainer = document.getElementById('chat-messages');
+        if (!input || !messagesContainer) return;
+
+        const text = input.value.trim();
+        if (!text) return;
+
+        // Clear input
+        input.value = '';
+
+        // Append User Message to UI
+        const userMsgHtml = `
+            <div class="self-end ml-auto bg-primary/15 p-4 rounded-2xl rounded-tr-none max-w-[85%] border border-primary/25">
+                <p class="text-xs text-on-surface leading-relaxed">${escapeHtml(text)}</p>
+                <span class="text-[10px] text-on-surface/50 mt-2 block font-medium">You • Just now</span>
+            </div>
+        `;
+        messagesContainer.insertAdjacentHTML('beforeend', userMsgHtml);
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+        // Append Typing Indicator
+        const typingId = 'typing-indicator-' + Date.now();
+        const typingHtml = `
+            <div id="${typingId}" class="bg-surface-container-low p-4 rounded-2xl rounded-tl-none max-w-[85%] border border-outline-variant/20">
+                <p class="text-xs text-on-surface-variant leading-relaxed animate-pulse">Thinking...</p>
+                <span class="text-[10px] text-on-surface-variant/50 mt-2 block font-medium">Pathway Bot • Typing</span>
+            </div>
+        `;
+        messagesContainer.insertAdjacentHTML('beforeend', typingHtml);
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+        try {
+            const response = await fetch('/.netlify/functions/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    message: text,
+                    history: chatHistory
+                })
+            });
+
+            // Remove Typing Indicator
+            const typingEl = document.getElementById(typingId);
+            if (typingEl) typingEl.remove();
+
+            if (!response.ok) {
+                throw new Error('Failed to fetch response');
+            }
+
+            const data = await response.json();
+            const reply = data.reply || "I'm sorry, I couldn't generate a response.";
+
+            // Append Bot Reply to UI
+            const botMsgHtml = `
+                <div class="bg-surface-container-low p-4 rounded-2xl rounded-tl-none max-w-[85%] border border-outline-variant/20">
+                    <p class="text-xs text-on-surface-variant leading-relaxed">${markdownToHtml(reply)}</p>
+                    <span class="text-[10px] text-on-surface-variant/50 mt-2 block font-medium">Pathway Bot • Just now</span>
+                </div>
+            `;
+            messagesContainer.insertAdjacentHTML('beforeend', botMsgHtml);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+            // Save to History
+            chatHistory.push({ role: 'user', text: text });
+            chatHistory.push({ role: 'model', text: reply });
+
+        } catch (err) {
+            console.error(err);
+            const typingEl = document.getElementById(typingId);
+            if (typingEl) typingEl.remove();
+
+            // Append Error Message
+            const errorHtml = `
+                <div class="bg-red-500/10 p-4 rounded-2xl rounded-tl-none max-w-[85%] border border-red-500/20">
+                    <p class="text-xs text-red-700 dark:text-red-400 leading-relaxed">Could not reach the support agent. Please check your environment variables or connection.</p>
+                    <span class="text-[10px] text-red-500/50 mt-2 block font-medium">System • Just now</span>
+                </div>
+            `;
+            messagesContainer.insertAdjacentHTML('beforeend', errorHtml);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+    }
+
+    function escapeHtml(str) {
+        return str
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#039;');
+    }
+
+    function markdownToHtml(str) {
+        const escaped = escapeHtml(str);
+        return escaped
+            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+            .replace(/\*(.*?)\*/g, '<em>$1</em>')
+            .replace(/`([^`]+)`/g, '<code class="bg-slate-150 dark:bg-slate-800 px-1 rounded text-[11px]">$1</code>')
+            .replace(/\n/g, '<br/>');
     }
  
     // IntersectionObserver reveal fallback for scroll-reveal

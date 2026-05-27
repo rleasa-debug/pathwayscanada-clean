@@ -1,0 +1,10 @@
+# Netlify configuration file for Pathway Canada
+# Specifies build directory, build command, and serverless functions path.
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
