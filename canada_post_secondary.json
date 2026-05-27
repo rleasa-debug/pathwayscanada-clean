@@ -1,0 +1,1406 @@
+[
+  {
+    "id": "alberta-university-of-the-arts",
+    "name": "Alberta University of the Arts",
+    "city": "Calgary",
+    "province": "AB",
+    "type": "University",
+    "program": "Fine Arts & Design",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "acadia-university",
+    "name": "Acadia University",
+    "city": "Wolfville",
+    "province": "NS",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "algoma-university",
+    "name": "Algoma University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "athabasca-university",
+    "name": "Athabasca University",
+    "city": "Athabasca",
+    "province": "AB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "bishops-university",
+    "name": "Bishop's University",
+    "city": "Sherbrooke",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "brandon-university",
+    "name": "Brandon University",
+    "city": "Brandon",
+    "province": "MB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "brock-university",
+    "name": "Brock University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "cape-breton-university",
+    "name": "Cape Breton University",
+    "city": "Sydney",
+    "province": "NS",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "capilano-university",
+    "name": "Capilano University",
+    "city": "North Vancouver",
+    "province": "BC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "carleton-university",
+    "name": "Carleton University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "concordia-university",
+    "name": "Concordia University",
+    "city": "Montreal",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "dalhousie-university",
+    "name": "Dalhousie University",
+    "city": "Halifax",
+    "province": "NS",
+    "type": "University",
+    "program": "Marine Biology",
+    "prog_type": "Health"
+  },
+  {
+    "id": "emily-carr-university-of-art-and-design",
+    "name": "Emily Carr University of Art and Design",
+    "city": "Vancouver",
+    "province": "BC",
+    "type": "University",
+    "program": "Fine Arts & Design",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "kwantlen-polytechnic-university",
+    "name": "Kwantlen Polytechnic University",
+    "city": "Surrey",
+    "province": "BC",
+    "type": "University",
+    "program": "Bachelor of Science in Computing",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "lakehead-university",
+    "name": "Lakehead University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "macewan-university",
+    "name": "MacEwan University",
+    "city": "Edmonton",
+    "province": "AB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "mount-royal-university",
+    "name": "Mount Royal University",
+    "city": "Calgary",
+    "province": "AB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-alberta",
+    "name": "University of Alberta",
+    "city": "Edmonton",
+    "province": "AB",
+    "type": "University",
+    "program": "Computing Science",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "university-of-calgary",
+    "name": "University of Calgary",
+    "city": "Calgary",
+    "province": "AB",
+    "type": "University",
+    "program": "Petroleum Engineering",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "university-of-lethbridge",
+    "name": "University of Lethbridge",
+    "city": "Lethbridge",
+    "province": "AB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "royal-roads-university",
+    "name": "Royal Roads University",
+    "city": "Colwood",
+    "province": "BC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "simon-fraser-university",
+    "name": "Simon Fraser University",
+    "city": "Burnaby",
+    "province": "BC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "thompson-rivers-university",
+    "name": "Thompson Rivers University",
+    "city": "Kamloops",
+    "province": "BC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-british-columbia",
+    "name": "University of British Columbia",
+    "city": "Vancouver",
+    "province": "BC",
+    "type": "University",
+    "program": "Data Intelligence",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "university-of-victoria",
+    "name": "University of Victoria",
+    "city": "Victoria",
+    "province": "BC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-the-fraser-valley",
+    "name": "University of the Fraser Valley",
+    "city": "Abbotsford",
+    "province": "BC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-northern-british-columbia",
+    "name": "University of Northern British Columbia",
+    "city": "Prince George",
+    "province": "BC",
+    "type": "University",
+    "program": "Data Intelligence",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "vancouver-island-university",
+    "name": "Vancouver Island University",
+    "city": "Nanaimo",
+    "province": "BC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-college-of-the-north",
+    "name": "University College of the North",
+    "city": "The Pas",
+    "province": "MB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-manitoba",
+    "name": "University of Manitoba",
+    "city": "Winnipeg",
+    "province": "MB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-de-saint-boniface",
+    "name": "Université de Saint-Boniface",
+    "city": "Winnipeg",
+    "province": "MB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-winnipeg",
+    "name": "University of Winnipeg",
+    "city": "Winnipeg",
+    "province": "MB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "mount-allison-university",
+    "name": "Mount Allison University",
+    "city": "Sackville",
+    "province": "NB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "st.-thomas-university",
+    "name": "St. Thomas University",
+    "city": "Fredericton",
+    "province": "NB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-new-brunswick",
+    "name": "University of New Brunswick",
+    "city": "Fredericton",
+    "province": "NB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-de-moncton",
+    "name": "Université de Moncton",
+    "city": "Moncton",
+    "province": "NB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "memorial-university-of-newfoundland",
+    "name": "Memorial University of Newfoundland",
+    "city": "St. John's",
+    "province": "NL",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "mount-saint-vincent-university",
+    "name": "Mount Saint Vincent University",
+    "city": "Halifax",
+    "province": "NS",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "nova-scotia-college-of-art-and-design-university",
+    "name": "Nova Scotia College of Art and Design University",
+    "city": "Halifax",
+    "province": "NS",
+    "type": "University",
+    "program": "Fine Arts & Design",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "saint-francis-xavier-university",
+    "name": "Saint Francis Xavier University",
+    "city": "Antigonish",
+    "province": "NS",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "saint-marys-university",
+    "name": "Saint Mary's University",
+    "city": "Halifax",
+    "province": "NS",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-sainte-anne",
+    "name": "Université Sainte-Anne",
+    "city": "Pointe-de-l'Église",
+    "province": "NS",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-kings-college",
+    "name": "University of King's College",
+    "city": "Halifax",
+    "province": "NS",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "laurentian-university",
+    "name": "Laurentian University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "mcmaster-university",
+    "name": "McMaster University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Health Sciences I",
+    "prog_type": "Health"
+  },
+  {
+    "id": "nipissing-university",
+    "name": "Nipissing University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "ontario-college-of-art-and-design-university",
+    "name": "Ontario College of Art and Design University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Fine Arts & Design",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "queens-university-at-kingston",
+    "name": "Queen's University at Kingston",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Commerce & Finance",
+    "prog_type": "Business"
+  },
+  {
+    "id": "royal-military-college-of-canada",
+    "name": "Royal Military College of Canada",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "toronto-metropolitan-university",
+    "name": "Toronto Metropolitan University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "MSc Computer Science",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "trent-university",
+    "name": "Trent University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-de-hearst",
+    "name": "Université de Hearst",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-de-lontario-français",
+    "name": "Université de l'Ontario français",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-de-sudbury",
+    "name": "Université de Sudbury",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-guelph",
+    "name": "University of Guelph",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "ontario-tech-university",
+    "name": "Ontario Tech University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Science in Computing",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "university-of-ottawa",
+    "name": "University of Ottawa",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-toronto",
+    "name": "University of Toronto",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "MSc Computer Science",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "university-of-waterloo",
+    "name": "University of Waterloo",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Software Engineering & Co-op",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "university-of-western-ontario",
+    "name": "University of Western Ontario",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Medical Sciences",
+    "prog_type": "Health"
+  },
+  {
+    "id": "university-of-windsor",
+    "name": "University of Windsor",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "wilfrid-laurier-university",
+    "name": "Wilfrid Laurier University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "york-university",
+    "name": "York University",
+    "city": "Ontario",
+    "province": "ON",
+    "type": "University",
+    "program": "Digital Media (BA)",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-prince-edward-island",
+    "name": "University of Prince Edward Island",
+    "city": "Charlottetown",
+    "province": "PE",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "école-de-technologie-supérieure",
+    "name": "École de technologie supérieure",
+    "city": "Montreal",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Science in Computing",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "école-nationale-dadministration-publique",
+    "name": "École nationale d'administration publique",
+    "city": "Quebec",
+    "province": "QC",
+    "type": "University",
+    "program": "Business Administration & Finance",
+    "prog_type": "Business"
+  },
+  {
+    "id": "institut-national-de-la-recherche-scientifique",
+    "name": "Institut national de la recherche scientifique",
+    "city": "Quebec",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "mcgill-university",
+    "name": "McGill University",
+    "city": "Montreal",
+    "province": "QC",
+    "type": "University",
+    "program": "Software Engineering",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "université-de-montréal",
+    "name": "Université de Montréal",
+    "city": "Montreal",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-de-sherbrooke",
+    "name": "Université de Sherbrooke",
+    "city": "Sherbrooke",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-du-québec-en-abitibi-témiscamingue",
+    "name": "Université du Québec en Abitibi-Témiscamingue",
+    "city": "Rouyn-Noranda",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-du-québec-en-outaouais",
+    "name": "Université du Québec en Outaouais",
+    "city": "Gatineau",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-du-québec-à-chicoutimi",
+    "name": "Université du Québec à Chicoutimi",
+    "city": "Saguenay",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-du-québec-à-montréal",
+    "name": "Université du Québec à Montréal",
+    "city": "Montreal",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-du-québec-à-rimouski",
+    "name": "Université du Québec à Rimouski",
+    "city": "Rimouski",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-du-québec-à-trois-rivières",
+    "name": "Université du Québec à Trois-Rivières",
+    "city": "Trois-Rivières",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-téluq",
+    "name": "Université TÉLUQ",
+    "city": "Quebec",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "université-laval",
+    "name": "Université Laval",
+    "city": "Quebec City",
+    "province": "QC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-regina",
+    "name": "University of Regina",
+    "city": "Regina",
+    "province": "SK",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-saskatchewan",
+    "name": "University of Saskatchewan",
+    "city": "Saskatoon",
+    "province": "SK",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "yukon-university",
+    "name": "Yukon University",
+    "city": "Whitehorse",
+    "province": "YT",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "ambrose-university",
+    "name": "Ambrose University",
+    "city": "Calgary",
+    "province": "AB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "booth-university-college",
+    "name": "Booth University College",
+    "city": "Winnipeg",
+    "province": "MB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "burman-university",
+    "name": "Burman University",
+    "city": "Lacombe",
+    "province": "AB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "canadian-mennonite-university",
+    "name": "Canadian Mennonite University",
+    "city": "Winnipeg",
+    "province": "MB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "concordia-university-of-edmonton",
+    "name": "Concordia University of Edmonton",
+    "city": "Edmonton",
+    "province": "AB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "crandall-university",
+    "name": "Crandall University",
+    "city": "Moncton",
+    "province": "NB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "kingswood-university",
+    "name": "Kingswood University",
+    "city": "Sussex",
+    "province": "NB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "pacific-coast-university-for-workplace-health-sciences",
+    "name": "Pacific Coast University for Workplace Health Sciences",
+    "city": "Port Alberni",
+    "province": "BC",
+    "type": "University",
+    "program": "Bachelor of Science in Computing",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "providence-university-college-and-theological-seminary",
+    "name": "Providence University College and Theological Seminary",
+    "city": "Otterburne",
+    "province": "MB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "redeemer-university",
+    "name": "Redeemer University",
+    "city": "Hamilton",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "st.-marys-university-calgary",
+    "name": "St. Mary's University, Calgary",
+    "city": "Calgary",
+    "province": "AB",
+    "type": "University",
+    "program": "Petroleum Engineering",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "st.-stephens-university",
+    "name": "St. Stephen's University",
+    "city": "St. Stephen",
+    "province": "NB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "the-kings-university",
+    "name": "The King's University",
+    "city": "Edmonton",
+    "province": "AB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "trinity-western-university",
+    "name": "Trinity Western University",
+    "city": "Langley",
+    "province": "BC",
+    "type": "University",
+    "program": "Medical Sciences",
+    "prog_type": "Health"
+  },
+  {
+    "id": "tyndale-university",
+    "name": "Tyndale University",
+    "city": "Toronto",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-canada-west",
+    "name": "University Canada West",
+    "city": "Vancouver",
+    "province": "BC",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-fredericton",
+    "name": "University of Fredericton",
+    "city": "Fredericton",
+    "province": "NB",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "university-of-niagara-falls-canada",
+    "name": "University of Niagara Falls Canada",
+    "city": "Niagara Falls",
+    "province": "ON",
+    "type": "University",
+    "program": "Bachelor of Arts & Science",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "yorkville-university",
+    "name": "Yorkville University",
+    "city": "Fredericton, Toronto, Vancouver, Vaughan",
+    "province": "ON",
+    "type": "University",
+    "program": "Digital Media (BA)",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "seneca-college",
+    "name": "Seneca College",
+    "city": "Toronto",
+    "province": "ON",
+    "type": "College",
+    "program": "Computer Programming",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "humber-college",
+    "name": "Humber College",
+    "city": "Toronto",
+    "province": "ON",
+    "type": "College",
+    "program": "Game Programming & Design",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "george-brown-college",
+    "name": "George Brown College",
+    "city": "Toronto",
+    "province": "ON",
+    "type": "College",
+    "program": "Culinary Management",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "sheridan-college",
+    "name": "Sheridan College",
+    "city": "Oakville",
+    "province": "ON",
+    "type": "College",
+    "program": "Animation & Game Design",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "centennial-college",
+    "name": "Centennial College",
+    "city": "Toronto",
+    "province": "ON",
+    "type": "College",
+    "program": "Software Engineering Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "algonquin-college",
+    "name": "Algonquin College",
+    "city": "Ottawa",
+    "province": "ON",
+    "type": "College",
+    "program": "Interactive Media Design",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "conestoga-college",
+    "name": "Conestoga College",
+    "city": "Kitchener",
+    "province": "ON",
+    "type": "College",
+    "program": "Software Engineering Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "mohawk-college",
+    "name": "Mohawk College",
+    "city": "Hamilton",
+    "province": "ON",
+    "type": "College",
+    "program": "Business Administration",
+    "prog_type": "Business"
+  },
+  {
+    "id": "fanshawe-college",
+    "name": "Fanshawe College",
+    "city": "London",
+    "province": "ON",
+    "type": "College",
+    "program": "Practical Nursing",
+    "prog_type": "Health"
+  },
+  {
+    "id": "niagara-college",
+    "name": "Niagara College",
+    "city": "Welland",
+    "province": "ON",
+    "type": "College",
+    "program": "Brewmaster & Brewery Operations",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "durham-college",
+    "name": "Durham College",
+    "city": "Oshawa",
+    "province": "ON",
+    "type": "College",
+    "program": "Artificial Intelligence Analysis",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "st.-lawrence-college",
+    "name": "St. Lawrence College",
+    "city": "Kingston",
+    "province": "ON",
+    "type": "College",
+    "program": "Veterinary Technology",
+    "prog_type": "Health"
+  },
+  {
+    "id": "georgian-college",
+    "name": "Georgian College",
+    "city": "Barrie",
+    "province": "ON",
+    "type": "College",
+    "program": "Aviation Management",
+    "prog_type": "Business"
+  },
+  {
+    "id": "fleming-college",
+    "name": "Fleming College",
+    "city": "Peterborough",
+    "province": "ON",
+    "type": "College",
+    "program": "Environmental Technician",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "lambton-college",
+    "name": "Lambton College",
+    "city": "Sarnia",
+    "province": "ON",
+    "type": "College",
+    "program": "Instrumentation & Control Engineering",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "loyalist-college",
+    "name": "Loyalist College",
+    "city": "Belleville",
+    "province": "ON",
+    "type": "College",
+    "program": "Customs Border Services",
+    "prog_type": "Business"
+  },
+  {
+    "id": "cambrian-college",
+    "name": "Cambrian College",
+    "city": "Sudbury",
+    "province": "ON",
+    "type": "College",
+    "program": "Mining Engineering Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "canadore-college",
+    "name": "Canadore College",
+    "city": "North Bay",
+    "province": "ON",
+    "type": "College",
+    "program": "Aircraft Maintenance",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "confederation-college",
+    "name": "Confederation College",
+    "city": "Thunder Bay",
+    "province": "ON",
+    "type": "College",
+    "program": "Aerospace Manufacturing",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "northern-college",
+    "name": "Northern College",
+    "city": "Timmins",
+    "province": "ON",
+    "type": "College",
+    "program": "Veterinary Technician",
+    "prog_type": "Health"
+  },
+  {
+    "id": "la-cité-collégiale",
+    "name": "La Cité collégiale",
+    "city": "Ottawa",
+    "province": "ON",
+    "type": "College",
+    "program": "Technologie du génie informatique",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "bcit-british-columbia-institute-of-technology",
+    "name": "BCIT (British Columbia Institute of Technology)",
+    "city": "Burnaby",
+    "province": "BC",
+    "type": "College",
+    "program": "Computer Systems Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "douglas-college",
+    "name": "Douglas College",
+    "city": "New Westminster",
+    "province": "BC",
+    "type": "College",
+    "program": "Criminology & Social Work",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "langara-college",
+    "name": "Langara College",
+    "city": "Vancouver",
+    "province": "BC",
+    "type": "College",
+    "program": "Bioinformatics & Science",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "camosun-college",
+    "name": "Camosun College",
+    "city": "Victoria",
+    "province": "BC",
+    "type": "College",
+    "program": "Mechanical Engineering Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "okanagan-college",
+    "name": "Okanagan College",
+    "city": "Kelowna",
+    "province": "BC",
+    "type": "College",
+    "program": "Water Engineering Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "selkirk-college",
+    "name": "Selkirk College",
+    "city": "Castlegar",
+    "province": "BC",
+    "type": "College",
+    "program": "Forest Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "college-of-new-caledonia",
+    "name": "College of New Caledonia",
+    "city": "Prince George",
+    "province": "BC",
+    "type": "College",
+    "program": "Medical Laboratory Technology",
+    "prog_type": "Health"
+  },
+  {
+    "id": "college-of-the-rockies",
+    "name": "College of the Rockies",
+    "city": "Cranbrook",
+    "province": "BC",
+    "type": "College",
+    "program": "Adventure Tourism Business",
+    "prog_type": "Business"
+  },
+  {
+    "id": "north-island-college",
+    "name": "North Island College",
+    "city": "Courtenay",
+    "province": "BC",
+    "type": "College",
+    "program": "Interactive Media & Design",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "northern-lights-college",
+    "name": "Northern Lights College",
+    "city": "Dawson Creek",
+    "province": "BC",
+    "type": "College",
+    "program": "Wind Turbine Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "sait-southern-alberta-institute-of-technology",
+    "name": "SAIT (Southern Alberta Institute of Technology)",
+    "city": "Calgary",
+    "province": "AB",
+    "type": "College",
+    "program": "Information Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "nait-northern-alberta-institute-of-technology",
+    "name": "NAIT (Northern Alberta Institute of Technology)",
+    "city": "Edmonton",
+    "province": "AB",
+    "type": "College",
+    "program": "Alternative Energy Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "bow-valley-college",
+    "name": "Bow Valley College",
+    "city": "Calgary",
+    "province": "AB",
+    "type": "College",
+    "program": "Software Development Diploma",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "lethbridge-college",
+    "name": "Lethbridge College",
+    "city": "Lethbridge",
+    "province": "AB",
+    "type": "College",
+    "program": "Virtual Reality & Game Design",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "red-deer-polytechnic",
+    "name": "Red Deer Polytechnic",
+    "city": "Red Deer",
+    "province": "AB",
+    "type": "College",
+    "program": "Medical Lab Research",
+    "prog_type": "Health"
+  },
+  {
+    "id": "medicine-hat-college",
+    "name": "Medicine Hat College",
+    "city": "Medicine Hat",
+    "province": "AB",
+    "type": "College",
+    "program": "Environmental Science",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "keyano-college",
+    "name": "Keyano College",
+    "city": "Fort McMurray",
+    "province": "AB",
+    "type": "College",
+    "program": "Power Engineering",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "lakeland-college",
+    "name": "Lakeland College",
+    "city": "Vermilion",
+    "province": "AB",
+    "type": "College",
+    "program": "Crop Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "portage-college",
+    "name": "Portage College",
+    "city": "Lac La Biche",
+    "province": "AB",
+    "type": "College",
+    "program": "Natural Resources Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "grande-prairie-regional-college",
+    "name": "Grande Prairie Regional College",
+    "city": "Grande Prairie",
+    "province": "AB",
+    "type": "College",
+    "program": "Nursing Education",
+    "prog_type": "Health"
+  },
+  {
+    "id": "saskatchewan-polytechnic",
+    "name": "Saskatchewan Polytechnic",
+    "city": "Saskatoon",
+    "province": "SK",
+    "type": "College",
+    "program": "Computer Systems Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "red-river-college-polytech",
+    "name": "Red River College Polytech",
+    "city": "Winnipeg",
+    "province": "MB",
+    "type": "College",
+    "program": "Applied Computer Education",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "assiniboine-community-college",
+    "name": "Assiniboine Community College",
+    "city": "Brandon",
+    "province": "MB",
+    "type": "College",
+    "program": "Sustainable Food Systems",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "nova-scotia-community-college-nscc",
+    "name": "Nova Scotia Community College (NSCC)",
+    "city": "Halifax",
+    "province": "NS",
+    "type": "College",
+    "program": "IT Programming & Analysis",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "holland-college",
+    "name": "Holland College",
+    "city": "Charlottetown",
+    "province": "PE",
+    "type": "College",
+    "program": "Computer Information Systems",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "new-brunswick-community-college-nbcc",
+    "name": "New Brunswick Community College (NBCC)",
+    "city": "Fredericton",
+    "province": "NB",
+    "type": "College",
+    "program": "Cybersecurity & Networks",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "college-of-the-north-atlantic",
+    "name": "College of the North Atlantic",
+    "city": "St. John's",
+    "province": "NL",
+    "type": "College",
+    "program": "Software Development",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "dawson-college",
+    "name": "Dawson College",
+    "city": "Montreal",
+    "province": "QC",
+    "type": "College",
+    "program": "Computer Science Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "dawson-college",
+    "name": "Dawson College",
+    "city": "Montreal",
+    "province": "QC",
+    "type": "College",
+    "program": "Business Management",
+    "prog_type": "Business"
+  },
+  {
+    "id": "yukon-university-college",
+    "name": "Yukon University (College Division)",
+    "city": "Whitehorse",
+    "province": "YT",
+    "type": "College",
+    "program": "Early Childhood Development",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "yukon-university-college",
+    "name": "Yukon University (College Division)",
+    "city": "Whitehorse",
+    "province": "YT",
+    "type": "College",
+    "program": "Business Administration",
+    "prog_type": "Business"
+  },
+  {
+    "id": "aurora-college-uni",
+    "name": "Aurora College (University Degrees)",
+    "city": "Inuvik",
+    "province": "NT",
+    "type": "University",
+    "program": "Bachelor of Education",
+    "prog_type": "Arts"
+  },
+  {
+    "id": "aurora-college",
+    "name": "Aurora College",
+    "city": "Inuvik",
+    "province": "NT",
+    "type": "College",
+    "program": "Environment and Natural Resources Technology",
+    "prog_type": "STEM"
+  },
+  {
+    "id": "nunavut-arctic-college-uni",
+    "name": "Nunavut Arctic College (Degree Programs)",
+    "city": "Iqaluit",
+    "province": "NU",
+    "type": "University",
+    "program": "Bachelor of Science in Nursing",
+    "prog_type": "Health"
+  },
+  {
+    "id": "nunavut-arctic-college",
+    "name": "Nunavut Arctic College",
+    "city": "Iqaluit",
+    "province": "NU",
+    "type": "College",
+    "program": "Management Studies",
+    "prog_type": "Business"
+  }
+]
